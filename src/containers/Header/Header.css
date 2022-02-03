@@ -1,0 +1,103 @@
+.header {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 7.5rem;
+}
+
+.header__login {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* border: 1px dashed green; */
+}
+.header__divider {
+  height: 57px;
+  width: 1px;
+  margin: 0 49px 0px 50px;
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.55) 25%,
+    rgba(255, 255, 255, 0.55) 75%,
+    rgba(255, 255, 255, 0.15) 100%
+  );
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.55) 25%,
+    rgba(255, 255, 255, 0.55) 75%,
+    rgba(255, 255, 255, 0.15) 100%
+  );
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.55) 25%,
+    rgba(255, 255, 255, 0.55) 75%,
+    rgba(255, 255, 255, 0.15) 100%
+  );
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFFFFF', GradientType=0 );
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.55) 25%,
+    rgba(255, 255, 255, 0.55) 75%,
+    rgba(255, 255, 255, 0.15) 100%
+  );
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.55) 25%,
+    rgba(255, 255, 255, 0.55) 75%,
+    rgba(255, 255, 255, 0.15) 100%
+  );
+}
+
+.logo {
+  /* border: 1px dashed green; */
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+}
+.logo__image {
+  width: 199px;
+  height: 57px;
+}
+
+.navigation {
+  /* border: 1px dotted green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  flex: 1;
+  margin-left: 169px;
+}
+.navigation__item {
+  margin-right: 2rem;
+}
+.navigation__item_mr_0 {
+  margin-right: 0;
+}
+.link {
+  font-family: var(--font-alt);
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+}
+.link:hover {
+  color: var(--primary-color-darker);
+}
+.link_letter_07 {
+  letter-spacing: 0.066em;
+}
