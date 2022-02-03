@@ -1,10 +1,38 @@
 import React from 'react';
 import './App.css';
 
+import {
+  Header,
+  Hero,
+  AboutUs,
+  Reservation,
+  Menu,
+  Special,
+  Chef,
+  Customers,
+  Video,
+  Laurels,
+  Updates,
+  PhotoGallery,
+  Footer,
+} from './containers';
+
 const App = () => {
   return (
     <div>
-      <h1>Gerich restaurant web site</h1>
+      <Header />
+      <Hero />
+      <AboutUs />
+      <Reservation />
+      <Menu />
+      <Special />
+      <Chef />
+      <Customers />
+      <Video />
+      <Laurels />
+      <Updates />
+      <PhotoGallery />
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,13 @@
+export { default as Header } from './Header/Header';
+export { default as Hero } from './Hero/Hero';
+export { default as AboutUs } from './AboutUs/AboutUs';
+export { default as Reservation } from './Reservation/Reservation';
+export { default as Menu } from './Menu/Menu';
+export { default as Special } from './Special/Special';
+export { default as Chef } from './Chef/Chef';
+export { default as Customers } from './Customers/Customers';
+export { default as Video } from './Video/Video';
+export { default as Laurels } from './Laurels/Laurels';
+export { default as Updates } from './Updates/Updates';
+export { default as PhotoGallery } from './PhotoGallery/PhotoGallery';
+export { default as Footer } from './Footer/Footer';
