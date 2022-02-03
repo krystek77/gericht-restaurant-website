@@ -1,63 +1,34 @@
 .header {
   /* border: 1px solid red; */
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 7.5rem;
 }
 
 .header__login {
+  /* border: 1px dashed green; */
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  /* border: 1px dashed green; */
 }
 .header__divider {
   height: 57px;
   width: 1px;
   margin: 0 49px 0px 50px;
   /* ff 3.6+ */
-  background: -moz-linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.15) 0%,
-    rgba(255, 255, 255, 0.55) 25%,
-    rgba(255, 255, 255, 0.55) 75%,
-    rgba(255, 255, 255, 0.15) 100%
-  );
+  background: -moz-linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.55) 25%, rgba(255, 255, 255, 0.55) 75%, rgba(255, 255, 255, 0.15) 100%);
   /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.15) 0%,
-    rgba(255, 255, 255, 0.55) 25%,
-    rgba(255, 255, 255, 0.55) 75%,
-    rgba(255, 255, 255, 0.15) 100%
-  );
+  background: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.55) 25%, rgba(255, 255, 255, 0.55) 75%, rgba(255, 255, 255, 0.15) 100%);
   /* opera 11.10+ */
-  background: -o-linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.15) 0%,
-    rgba(255, 255, 255, 0.55) 25%,
-    rgba(255, 255, 255, 0.55) 75%,
-    rgba(255, 255, 255, 0.15) 100%
-  );
+  background: -o-linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.55) 25%, rgba(255, 255, 255, 0.55) 75%, rgba(255, 255, 255, 0.15) 100%);
   /* ie 6-9 */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFFFFF', GradientType=0 );
   /* ie 10+ */
-  background: -ms-linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.15) 0%,
-    rgba(255, 255, 255, 0.55) 25%,
-    rgba(255, 255, 255, 0.55) 75%,
-    rgba(255, 255, 255, 0.15) 100%
-  );
+  background: -ms-linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.55) 25%, rgba(255, 255, 255, 0.55) 75%, rgba(255, 255, 255, 0.15) 100%);
   /* global 94%+ browsers support */
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.15) 0%,
-    rgba(255, 255, 255, 0.55) 25%,
-    rgba(255, 255, 255, 0.55) 75%,
-    rgba(255, 255, 255, 0.15) 100%
-  );
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.55) 25%, rgba(255, 255, 255, 0.55) 75%, rgba(255, 255, 255, 0.15) 100%);
 }
 
 .logo {
@@ -100,4 +71,90 @@
 }
 .link_letter_07 {
   letter-spacing: 0.066em;
+}
+.navigation-small-screen {
+  display: none;
+}
+.navigation-small-screen__open-button {
+  /* border: 1px dotted green; */
+  margin-left: 2rem;
+  font-size: 2rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.navigation-small-screen__open-button:hover {
+  color: var(--primary-color-darker);
+}
+.navigation-small-screen__overlay {
+  /* border: 1px dotted green; */
+  position: fixed;
+  inset: 0;
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.navigation-small-screen__close-button {
+  /* border: 1px dotted green; */
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--accent-color);
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 2rem;
+  margin-top: 3rem;
+  transition: all 0.5s ease-in-out;
+}
+.navigation-small-screen__close-button:hover {
+  color: var(--primary-color-darker);
+}
+.navigation-small-screen__menu {
+  /* border: 1px dotted green; */
+  list-style: none;
+}
+.navigation-small-screen__item {
+  /* border: 1px dotted green; */
+  text-align: center;
+}
+.navigation-small-screen__link {
+  color: var(--accent-color);
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1536px) {
+  .header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .navigation {
+    display: none;
+  }
+  .navigation-small-screen {
+    display: flex;
+  }
+  .header__login {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .navigation-small-screen__close-button {
+    margin-right: 2rem;
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
