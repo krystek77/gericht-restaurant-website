@@ -39,3 +39,14 @@ a {
   color: var(--priamry-color);
   text-decoration: none;
 }
+
+.border-temporary_dotted {
+  border: 1px dotted red;
+}
+.border-temporary_dashed {
+  border: 1px dashed green;
+}
+
+.border-temporary_solid {
+  border: 1px solid green;
+}
