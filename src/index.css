@@ -13,3 +13,12 @@
   --dark-color: #0c0c0c;
   --gray-color: #545454;
 }
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
