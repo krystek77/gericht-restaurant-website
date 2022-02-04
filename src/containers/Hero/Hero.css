@@ -3,16 +3,18 @@
   /* border: 1px solid red; */
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .hero__inner {
   /* border: 1px dotted green; */
-  max-width: 1680px;
+  max-width: 1300px;
+  max-height: 736px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 11.8rem;
-  padding-right: 11.8rem;
-  position: relative;
+  padding-left: 19.375;
+  padding-right: 19.375;
+  
 }
 .hero__info {
   /* border: 1px dotted green; */
@@ -52,7 +54,7 @@
 .hero__indicators {
   /* border: 1px dashed green; */
   position: absolute;
-  bottom: 0;
+  bottom: 1.5rem;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -127,8 +129,8 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 6.5rem;
+  bottom: 1.5rem;
   height: auto;
   border: none;
   outline: none;
