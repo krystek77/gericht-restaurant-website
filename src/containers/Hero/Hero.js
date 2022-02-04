@@ -6,6 +6,7 @@ import './Hero.css';
 const heroImages = [images.hero_01, images.hero_02, images.hero_03];
 
 const Hero = () => {
+  const current = true;
   return (
     <div className="hero section_padding">
       <div className="hero__inner">
@@ -34,6 +35,24 @@ const Hero = () => {
             ))}
           </div>
         </div>
+
+        <div className="hero__indicators">
+          {heroImages.map((_, index) => {
+            return (
+              <React.Fragment>
+                {index === 1 && <div className="pointer hero__pointer"></div>}
+                <span className="hero__indicator" key={index}>
+                  {`0${index + 1}`}
+                </span>
+              </React.Fragment>
+            );
+          })}
+        </div>
+
+        <button className="hero__scroll-button">
+          <div className="pointer pointer_horizontal hero__pointer"></div>
+          <span className="hero__scroll-text">SCROLL</span>
+        </button>
       </div>
     </div>
   );
