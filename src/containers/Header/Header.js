@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { MdRestaurantMenu } from 'react-icons/md';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
@@ -10,7 +10,7 @@ const Header = () => {
 
   const openMenu = () => setTurnMenu(true);
   const closeMenu = () => setTurnMenu(false);
-
+  // prettier-ignore
   return (
     <div className="header">
       <div className="logo"> <img className="logo__image" src={images.logo} alt="logo" /> </div>
