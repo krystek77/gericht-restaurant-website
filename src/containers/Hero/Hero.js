@@ -13,7 +13,7 @@ const Hero = () => {
 
         <div className='hero__info'>
           <div className='subtitle mr_bottom-05'>
-            <p className='subtitle__text'>Chase the new Flavour</p>
+            <p className='subtitle__text mr_bottom-05'>Chase the new Flavour</p>
             <img className='subtitle__spoon' src={images.spoon} alt='spoon' />
           </div>
           <h1 className='title title_header-h1 hero__title mr_bottom-2'>The Key To Fine Dining</h1>
