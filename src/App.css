@@ -37,6 +37,9 @@
 .description_font-style_italic {
   font-style: italic;
 }
+.description_align_right {
+  text-align: right;
+}
 .button {
   font-family: var(--font-base);
   font-style: normal;
@@ -55,7 +58,13 @@
 .button:hover {
   background-color: var(--accent-color-light);
 }
-
+.spoon {
+  width:40px;
+  height:9px;
+}
+.spoom_reverse {
+  transform: scale(-1);
+}
 @media screen and (max-width: 1536px) {
 }
 @media screen and (max-width: 1280px) {
