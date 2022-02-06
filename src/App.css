@@ -8,7 +8,7 @@
   margin-bottom: 0.5rem;
 }
 .section_padding {
-  padding: 2rem 6rem;
+  padding: 8rem 19.375rem;
 }
 .title {
   font-family: var(--font-base);
@@ -25,6 +25,9 @@
   font-weight: 700;
   letter-spacing: 0.04em;
 }
+.title_wrap_no {
+  white-space: nowrap;
+}
 .description {
   font-family: var(--font-alt);
   font-style: normal;
@@ -37,8 +40,11 @@
 .description_font-style_italic {
   font-style: italic;
 }
-.description_align_right {
+.description_align_left-reverse {
   text-align: right;
+}
+.description_align_left {
+  text-align: left;
 }
 .button {
   font-family: var(--font-base);
@@ -59,10 +65,14 @@
   background-color: var(--accent-color-light);
 }
 .spoon {
-  width:40px;
-  height:9px;
+  width: 40px;
+  height: 9px;
 }
-.spoom_reverse {
+
+.spoon_direction_right {
+  transform: scale(1);
+}
+.spoon_direction_left {
   transform: scale(-1);
 }
 @media screen and (max-width: 1536px) {
