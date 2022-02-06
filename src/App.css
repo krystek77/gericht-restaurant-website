@@ -75,6 +75,12 @@
 .spoon_direction_left {
   transform: scale(-1);
 }
+.background_marble {
+  background-image:url(./assets/images/background_marble.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 @media screen and (max-width: 1536px) {
 }
 @media screen and (max-width: 1280px) {

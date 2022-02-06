@@ -5,7 +5,7 @@ import images from "../../constants/images";
 
 const AboutUs = () => {
   return (
-    <div className='about-us'>
+    <div className='about-us background_marble'>
       <div className='about-us__background'>
         <img className='about-us__g-letter' src={images.G_SVG} alt='G letter' />
       </div>
