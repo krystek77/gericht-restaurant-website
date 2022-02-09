@@ -1,0 +1,12 @@
+.reservation {
+    padding:11.9375rem 17.375rem 9.5rem 17.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reservation__inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

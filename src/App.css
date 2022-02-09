@@ -1,15 +1,4 @@
-.mr_bottom-1 {
-  margin-bottom: 1rem;
-}
-.mr_bottom-2 {
-  margin-bottom: 2rem;
-}
-.mr_bottom-05 {
-  margin-bottom: 0.5rem;
-}
-.section_padding {
-  padding: 8rem 19.375rem;
-}
+
 .title {
   font-family: var(--font-base);
   font-style: normal;
@@ -27,6 +16,26 @@
 }
 .title_wrap_no {
   white-space: nowrap;
+}
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.subtitle__text {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4375rem;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--primary-color);
+}
+.subtitle__spoon {
+  width: 40px;
+  height: 9px;
 }
 .description {
   font-family: var(--font-alt);
@@ -68,19 +77,42 @@
   width: 40px;
   height: 9px;
 }
-
 .spoon_direction_right {
   transform: scale(1);
 }
 .spoon_direction_left {
   transform: scale(-1);
 }
+
 .background_marble {
   background-image:url(./assets/images/background_marble.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.mr_bottom-1 {
+  margin-bottom: 1rem;
+}
+.mr_bottom-2 {
+  margin-bottom: 2rem;
+}
+.mr_bottom-3 {
+  margin-bottom: 3rem;
+}
+.mr_bottom-05 {
+  margin-bottom: 0.5rem;
+}
+.align_center {
+  text-align: center;
+}
+.flex_center {
+  justify-content: center;
+  align-items: center;
+}
+.section_padding {
+  padding: 8rem 19.375rem;
+}
+
 @media screen and (max-width: 1536px) {
 }
 @media screen and (max-width: 1280px) {
