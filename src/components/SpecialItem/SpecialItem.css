@@ -1,0 +1,50 @@
+.special__menu-item {
+  margin-bottom: 2.5rem;
+}
+.special__menu-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.special__menu-name {
+  flex-grow: 1;
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4375rem;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--accent-color);
+}
+.special__menu-dash {
+  width: 119px;
+  height: 1px;
+  background-color: var(--primary-color-dark);
+}
+.special__menu-price {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4375rem;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  margin-left: 2rem;
+}
+.special__menu-tags {
+  /* Body 16px Regular */
+  font-family: var(--font-alt);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+
+  /* AAAAAA */
+
+  color: #aaaaaa;
+}

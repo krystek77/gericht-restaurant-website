@@ -1,6 +1,7 @@
 import React from 'react';
 import './Special.css';
 import images from '../../constants/images';
+import SpecialItem from '../../components/SpecialItem/SpecialItem';
 const wines = [
   { name: 'Chapel Hill Shiraz', price: 56, tags: 'AU | Bottle' },
   { name: 'Catena Malbec', price: 59, tags: 'AR | Bottle' },
@@ -50,15 +51,8 @@ const Special = () => {
             Wine & Beer
           </h3>
 
-          {wines.map(({ name, price, tags }, index) => (
-            <div className="special__menu-item" key={index}>
-              <div className="special__menu-header">
-                <p className="special__menu-name">{name}</p>
-                <div className="special__menu-dash"></div>
-                <p className="special__menu-price">{`$${price}`}</p>
-              </div>
-              <p className="special__menu-tags">{tags}</p>
-            </div>
+          {wines.map((wine, index) => (
+            <SpecialItem key={index} {...wine} />
           ))}
         </div>
         <div className="special__image">
@@ -69,15 +63,8 @@ const Special = () => {
             Coctails
           </h3>
 
-          {coctails.map(({ name, price, tags }, index) => (
-            <div className="special__menu-item" key={index}>
-              <div className="special__menu-header">
-                <p className="special__menu-name">{name}</p>
-                <div className="special__menu-dash"></div>
-                <p className="special__menu-price">{`$${price}`}</p>
-              </div>
-              <p className="special__menu-tags">{tags}</p>
-            </div>
+          {coctails.map((coctails, index) => (
+            <SpecialItem key={index} {...coctails} />
           ))}
         </div>
       </div>
