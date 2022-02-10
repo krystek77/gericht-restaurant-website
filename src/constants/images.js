@@ -11,6 +11,11 @@ import arrow_down_SVG from '../assets/images/arrow_down.svg';
 import arrow_down_PNG from '../assets/images/arrow_down.png';
 import bite_delight from '../assets/images/bite_delight.png';
 import special from '../assets/images/special.png';
+import gallery01  from '../assets/images/gallery01.png'
+import gallery02  from '../assets/images/gallery02.png'
+import gallery03  from '../assets/images/gallery03.png'
+import gallery04  from '../assets/images/gallery04.png'
+import gallery05  from '../assets/images/gallery05.png'
 
 const images = {
   logo,
@@ -25,6 +30,11 @@ const images = {
   arrow_down_PNG,
   bite_delight,
   special,
+  gallery01,
+  gallery02,
+  gallery03,
+  gallery04,
+  gallery05,
 };
 
 export default images;
