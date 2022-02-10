@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useRef } from "react";
 import "./PhotoGallery.css";
 import images from "../../constants/images";
 import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
@@ -7,6 +7,15 @@ import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs
 const galleryPhotos = [images.gallery01, images.gallery02, images.gallery03, images.gallery05];
 
 const PhotoGallery = () => {
+  const ref = useRef(null);
+  const scroll = (direction) => {
+    if (direction === "LEFT") {
+      ref.current.scrollLeft -= 317;
+    } else {
+      ref.current.scrollLeft += 317;
+    }
+  };
+
   return (
     <div className='gallery background_marble'>
       <div className='gallery__content'>
@@ -20,8 +29,9 @@ const PhotoGallery = () => {
           View More
         </button>
       </div>
-      <div className='gallery__images'>
-        <div className='gallery__images-container'>
+
+      <div className='gallery__images' ref={ref}>
+        <div className='gallery__images-container' >
           {galleryPhotos.map((image, index) => (
             <div className='gallery__image-card' key={`gallery-image-${index + 1}`}>
               <img className='gallery__image' src={image} alt={index + 1} />
@@ -29,8 +39,10 @@ const PhotoGallery = () => {
             </div>
           ))}
         </div>
-        <BsArrowLeftShort className='gallery__arrow-left' />
-        <BsArrowRightShort className='gallery__arrow-right' />
+        <div className='gallery__scroll-buttons'>
+          <BsArrowLeftShort className='gallery__arrow-left' onClick={() => scroll("LEFT")} />
+          <BsArrowRightShort className='gallery__arrow-right' onClick={() => scroll("RIGHT")} />
+        </div>
       </div>
     </div>
   );
