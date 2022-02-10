@@ -10,9 +10,9 @@ const PhotoGallery = () => {
   const ref = useRef(null);
   const scroll = (direction) => {
     if (direction === "LEFT") {
-      ref.current.scrollLeft -= 317;
+      ref.current.scrollLeft -= 333;
     } else {
-      ref.current.scrollLeft += 317;
+      ref.current.scrollLeft += 333;
     }
   };
 
@@ -30,14 +30,16 @@ const PhotoGallery = () => {
         </button>
       </div>
 
-      <div className='gallery__images' ref={ref}>
-        <div className='gallery__images-container' >
-          {galleryPhotos.map((image, index) => (
-            <div className='gallery__image-card' key={`gallery-image-${index + 1}`}>
-              <img className='gallery__image' src={image} alt={index + 1} />
-              <BsInstagram className='gallery__icon' />
-            </div>
-          ))}
+      <div className='gallery__outer'>
+        <div className='gallery__images' ref={ref}>
+          <div className='gallery__images-container'>
+            {galleryPhotos.map((image, index) => (
+              <div className='gallery__image-card' key={`gallery-image-${index + 1}`}>
+                <img className='gallery__image' src={image} alt={index + 1} />
+                <BsInstagram className='gallery__icon' />
+              </div>
+            ))}
+          </div>
         </div>
         <div className='gallery__scroll-buttons'>
           <BsArrowLeftShort className='gallery__arrow-left' onClick={() => scroll("LEFT")} />
