@@ -8,7 +8,7 @@ const galleryPhotos = [images.gallery01, images.gallery02, images.gallery03, ima
 
 const PhotoGallery = () => {
   return (
-    <div className='gallery'>
+    <div className='gallery background_marble'>
       <div className='gallery__content'>
         <div className='subtitle mr_bottom-05'>
           <p className='subtitle__text mr_bottom-05'>Menu that fits you palatte</p>
