@@ -2,6 +2,8 @@ import React from 'react';
 import './Reservation.css';
 import images from '../../constants/images';
 import Bite from '../../components/Bite/Bite';
+import ActionButton from '../../components/ActionButton/ActionButton'
+
 
 const Reservation = () => {
   return (
@@ -102,9 +104,7 @@ const Reservation = () => {
             </select>
           </div>
         </div>
-        <button type="button" className="button">
-          Book Now
-        </button>
+        <ActionButton label="Book Now"/>
       </div>
     </div>
   );

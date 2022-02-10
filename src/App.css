@@ -59,24 +59,6 @@
 .description_align_left {
   text-align: left;
 }
-.button {
-  font-family: var(--font-base);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.75;
-  color: var(--bg-color);
-  padding: 0.5rem 2rem;
-  letter-spacing: 0.1em;
-  background: var(--accent-color);
-  border: none;
-  outline: none;
-  cursor: pointer;
-  transition: all 0.5s ease-in-out;
-}
-.button:hover {
-  background-color: var(--accent-color-light);
-}
 .spoon {
   width: 40px;
   height: 9px;

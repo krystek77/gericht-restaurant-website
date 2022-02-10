@@ -2,6 +2,7 @@
 import React from "react";
 import images from "../../constants/images";
 import "./Hero.css";
+import ActionButton from '../../components/ActionButton/ActionButton'
 
 const heroImages = [images.hero_01, images.hero_02, images.hero_03];
 
@@ -18,7 +19,7 @@ const Hero = () => {
           </div>
           <h1 className='title title_header-h1 hero__title mr_bottom-2'>The Key To Fine Dining</h1>
           <p className='description hero__description mr_bottom-2'>Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus</p>
-          <button className='button hero__button'>Explore More</button>
+          <ActionButton label="Explore More"/>
         </div>
 
         <div className='hero__images'>

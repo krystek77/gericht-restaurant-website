@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useRef } from "react";
+import ActionButton from '../../components/ActionButton/ActionButton';
 import "./PhotoGallery.css";
 import images from "../../constants/images";
 import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
@@ -25,9 +26,7 @@ const PhotoGallery = () => {
         </div>
         <h2 className='title mr_bottom-15'>Instagram</h2>
         <p className='description mr_bottom-15'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
-        <button type='button' className='button'>
-          View More
-        </button>
+        <ActionButton label="View More"/>
       </div>
 
       <div className='gallery__outer'>
