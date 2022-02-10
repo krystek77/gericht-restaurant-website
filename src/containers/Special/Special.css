@@ -1,0 +1,109 @@
+.special {
+  padding: 9.5rem 19.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.special__content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.special__wines {
+  flex-grow: 1;
+}
+.special__image {
+  width: 412px;
+  margin: 0 2rem;
+}
+.special__image img {
+  width: 100%;
+  height: auto;
+}
+.special__coctails {
+  flex-grow: 1;
+}
+.special__menu-item {
+  margin-bottom: 2.5rem;
+}
+.special__menu-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.special__menu-name {
+  flex-grow: 1;
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4375rem;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--accent-color);
+}
+.special__menu-dash {
+  width: 119px;
+  height: 1px;
+  background-color: var(--primary-color-dark);
+}
+.special__menu-price {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4375rem;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  margin-left: 2rem;
+}
+.special__menu-tags {
+  /* Body 16px Regular */
+  font-family: var(--font-alt);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+
+  /* AAAAAA */
+
+  color: #aaaaaa;
+}
+
+@media screen and (max-width: 1536px) {
+  .special {
+    padding: 4rem 6rem;
+  }
+  .special__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .special__wines {
+    width: 80%;
+  }
+  .special__coctails {
+    width: 80%;
+  }
+  .special__image {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .special {
+    padding: 4rem 2rem;
+  }
+}
+@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 600px) {
+  .special__image {
+    width: 100%;
+  }
+}
