@@ -9,6 +9,7 @@ import G_png from '../assets/images/G.png';
 import knife from '../assets/images/knife.png';
 import arrow_down_SVG from '../assets/images/arrow_down.svg';
 import arrow_down_PNG from '../assets/images/arrow_down.png';
+import bite_delight from '../assets/images/bite_delight.png';
 
 const images = {
   logo,
@@ -21,6 +22,7 @@ const images = {
   knife,
   arrow_down_SVG,
   arrow_down_PNG,
+  bite_delight,
 };
 
 export default images;

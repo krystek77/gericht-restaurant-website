@@ -1,10 +1,12 @@
 import React from 'react';
 import './Reservation.css';
 import images from '../../constants/images';
+import Bite from '../../components/Bite/Bite';
 
 const Reservation = () => {
   return (
     <div className="reservation">
+      <Bite position="top-right" />
       <div className="reservation__inner">
         <div className="subtitle mr_bottom-05 flex_center">
           <p className="subtitle__text mr_bottom-05">Reservation</p>

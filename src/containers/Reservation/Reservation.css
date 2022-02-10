@@ -1,5 +1,6 @@
 .reservation {
   padding: 11.9375rem 17.375rem 9.5rem 17.375rem;
+  position: relative;
 }
 .reservation__inner {
   border: 1px solid rgba(220, 202, 135, 0.2);
