@@ -27,13 +27,13 @@ const App = () => {
       <Reservation />
       <Menu />
       <Special />
-      <Chef />
+      {/* <Chef />
       <Customers />
       <Video />
       <Laurels />
-      <Updates />
+      <Updates /> */}
       <PhotoGallery />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
