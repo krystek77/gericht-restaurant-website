@@ -38,7 +38,7 @@ const Customers = () => {
   return (
     <div className='customers'>
       <Subtitle content='Testimony' />
-      <Title content='Happy Customers' purpose='section' />
+      <Title content='Happy Customers' purpose='section' classes='mr_bottom-4' />
       <div className='customers__content'>
         {customersData.map((customer, index) => (
           <CustomerItem key={index} {...customer} />

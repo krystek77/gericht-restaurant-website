@@ -19,6 +19,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.mr_bottom-025 {
+  margin-bottom: 0.25rem;
+}
 .mr_bottom-1 {
   margin-bottom: 1rem;
 }
