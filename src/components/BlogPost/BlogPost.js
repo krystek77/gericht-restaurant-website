@@ -9,7 +9,7 @@ function BlogPost({ title, image, date, author, content }) {
       </div>
       <div className="post-card__info">
         <p className="post-card__date">{date}</p>
-        <p className="post-card__author">{author}</p>
+        <p className="post-card__author">- {author}</p>
       </div>
       <h3 className="post-card__title">{title}</h3>
       <p className="post-card__content">{content}</p>

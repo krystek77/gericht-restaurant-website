@@ -8,4 +8,22 @@
 .blog__posts {
   margin-top: 4rem;
   margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1536px) {
+}
+@media screen and (max-width: 1280px) {
+  .blog__posts {
+    flex-wrap: wrap;
+  }
+  .blog {
+    padding: 2rem 1rem;
+  }
+}
+@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 600px) {
 }
