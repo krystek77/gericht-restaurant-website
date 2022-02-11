@@ -19,6 +19,7 @@
   /* border: 1px dotted green; */
   min-width: 460px;
 }
+
 .hero__images {
   /* border: 1px dotted white; */
   margin-left: 8rem;
@@ -64,17 +65,47 @@
   transition: all 0.5s ease-in-out;
   width: 16px;
   height: 1px;
-  background: -moz-linear-gradient(0deg, rgba(220, 202, 135, 0.15) 0%, rgba(220, 202, 135, 0.55) 25%, rgba(220, 202, 135, 0.55) 75%, rgba(220, 202, 135, 0.15) 100%);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(220, 202, 135, 0.15) 0%,
+    rgba(220, 202, 135, 0.55) 25%,
+    rgba(220, 202, 135, 0.55) 75%,
+    rgba(220, 202, 135, 0.15) 100%
+  );
   /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(0deg, rgba(220, 202, 135, 0.15) 0%, rgba(220, 202, 135, 0.55) 25%, rgba(220, 202, 135, 0.55) 75%, rgba(220, 202, 135, 0.15) 100%);
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(220, 202, 135, 0.15) 0%,
+    rgba(220, 202, 135, 0.55) 25%,
+    rgba(220, 202, 135, 0.55) 75%,
+    rgba(220, 202, 135, 0.15) 100%
+  );
   /* opera 11.10+ */
-  background: -o-linear-gradient(0deg, rgba(220, 202, 135, 0.15) 0%, rgba(220, 202, 135, 0.55) 25%, rgba(220, 202, 135, 0.55) 75%, rgba(220, 202, 135, 0.15) 100%);
+  background: -o-linear-gradient(
+    0deg,
+    rgba(220, 202, 135, 0.15) 0%,
+    rgba(220, 202, 135, 0.55) 25%,
+    rgba(220, 202, 135, 0.55) 75%,
+    rgba(220, 202, 135, 0.15) 100%
+  );
   /* ie 6-9 */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFFFFF', GradientType=0 );
   /* ie 10+ */
-  background: -ms-linear-gradient(0deg, rgba(220, 202, 135, 0.15) 0%, rgba(220, 202, 135, 0.55) 25%, rgba(220, 202, 135, 0.55) 75%, rgba(220, 202, 135, 0.15) 100%);
+  background: -ms-linear-gradient(
+    0deg,
+    rgba(220, 202, 135, 0.15) 0%,
+    rgba(220, 202, 135, 0.55) 25%,
+    rgba(220, 202, 135, 0.55) 75%,
+    rgba(220, 202, 135, 0.15) 100%
+  );
   /* global 94%+ browsers support */
-  background: linear-gradient(0deg, rgba(220, 202, 135, 0.15) 0%, rgba(220, 202, 135, 0.55) 25%, rgba(220, 202, 135, 0.55) 75%, rgba(220, 202, 135, 0.15) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(220, 202, 135, 0.15) 0%,
+    rgba(220, 202, 135, 0.55) 25%,
+    rgba(220, 202, 135, 0.55) 75%,
+    rgba(220, 202, 135, 0.15) 100%
+  );
 }
 .pointer_horizontal {
   width: 1px;
@@ -118,17 +149,47 @@
   color: var(--accent-color);
 }
 .hero__scroll-button:hover .pointer {
-  background: -moz-linear-gradient(0deg, rgba(170, 170, 170, 0.15) 0%, rgba(170, 170, 170, 0.55) 25%, rgba(170, 170, 170, 0.55) 75%, rgba(170, 170, 170, 0.15) 100%);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(170, 170, 170, 0.15) 0%,
+    rgba(170, 170, 170, 0.55) 25%,
+    rgba(170, 170, 170, 0.55) 75%,
+    rgba(170, 170, 170, 0.15) 100%
+  );
   /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(0deg, rgba(170, 170, 170, 0.15) 0%, rgba(170, 170, 170, 0.55) 25%, rgba(170, 170, 170, 0.55) 75%, rgba(170, 170, 170, 0.15) 100%);
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(170, 170, 170, 0.15) 0%,
+    rgba(170, 170, 170, 0.55) 25%,
+    rgba(170, 170, 170, 0.55) 75%,
+    rgba(170, 170, 170, 0.15) 100%
+  );
   /* opera 11.10+ */
-  background: -o-linear-gradient(0deg, rgba(170, 170, 170, 0.15) 0%, rgba(170, 170, 170, 0.55) 25%, rgba(170, 170, 170, 0.55) 75%, rgba(170, 170, 170, 0.15) 100%);
+  background: -o-linear-gradient(
+    0deg,
+    rgba(170, 170, 170, 0.15) 0%,
+    rgba(170, 170, 170, 0.55) 25%,
+    rgba(170, 170, 170, 0.55) 75%,
+    rgba(170, 170, 170, 0.15) 100%
+  );
   /* ie 6-9 */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFFFFF', GradientType=0 );
   /* ie 10+ */
-  background: -ms-linear-gradient(0deg, rgba(170, 170, 170, 0.15) 0%, rgba(170, 170, 170, 0.55) 25%, rgba(170, 170, 170, 0.55) 75%, rgba(170, 170, 170, 0.15) 100%);
+  background: -ms-linear-gradient(
+    0deg,
+    rgba(170, 170, 170, 0.15) 0%,
+    rgba(170, 170, 170, 0.55) 25%,
+    rgba(170, 170, 170, 0.55) 75%,
+    rgba(170, 170, 170, 0.15) 100%
+  );
   /* global 94%+ browsers support */
-  background: linear-gradient(0deg, rgba(170, 170, 170, 0.15) 0%, rgba(170, 170, 170, 0.55) 25%, rgba(170, 170, 170, 0.55) 75%, rgba(170, 170, 170, 0.15) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(170, 170, 170, 0.15) 0%,
+    rgba(170, 170, 170, 0.55) 25%,
+    rgba(170, 170, 170, 0.55) 75%,
+    rgba(170, 170, 170, 0.15) 100%
+  );
 }
 .hero__scroll-button:hover .hero__scroll-text {
   color: var(--primary-color-darker);

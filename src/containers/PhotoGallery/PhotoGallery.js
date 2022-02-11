@@ -2,13 +2,14 @@
 import React, { useRef } from 'react';
 import ActionButton from '../../components/ActionButton/ActionButton';
 import Title from '../../components/Title/Title';
-import './PhotoGallery.css';
+import Subtitle from '../../components/Subtitle/Subtitle';
 import images from '../../constants/images';
 import {
   BsInstagram,
   BsArrowLeftShort,
   BsArrowRightShort,
 } from 'react-icons/bs';
+import './PhotoGallery.css';
 
 const galleryPhotos = [
   images.gallery01,
@@ -30,12 +31,7 @@ const PhotoGallery = () => {
   return (
     <div className="gallery background_marble">
       <div className="gallery__content">
-        <div className="subtitle mr_bottom-05">
-          <p className="subtitle__text mr_bottom-05">
-            Menu that fits you palatte
-          </p>
-          <img className="subtitle__spoon" src={images.spoon} alt="spoon" />
-        </div>
+        <Subtitle content="Menu that fits you palatte" />
         <Title
           classes="title_wrap_no mr_bottom-15"
           purpose="section"

@@ -5,6 +5,10 @@
   align-items: center;
   width: 100%;
 }
+.special .subtitle {
+  justify-content: center;
+  align-items: center;
+}
 .special__content {
   width: 100%;
   display: flex;

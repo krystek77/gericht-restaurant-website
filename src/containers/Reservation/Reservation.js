@@ -1,19 +1,17 @@
 import React from 'react';
-import './Reservation.css';
 import images from '../../constants/images';
 import Bite from '../../components/Bite/Bite';
 import ActionButton from '../../components/ActionButton/ActionButton';
 import Title from '../../components/Title/Title';
+import Subtitle from '../../components/Subtitle/Subtitle';
+import './Reservation.css';
 
 const Reservation = () => {
   return (
     <div className="reservation">
       <Bite position="top-right" />
       <div className="reservation__inner">
-        <div className="subtitle mr_bottom-05 flex_center">
-          <p className="subtitle__text mr_bottom-05">Reservation</p>
-          <img className="subtitle__spoon" src={images.spoon} alt="spoon" />
-        </div>
+        <Subtitle content="Reservation" />
         <Title
           classes="title_wrap_no mr_bottom-3"
           purpose="section"

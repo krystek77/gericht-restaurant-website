@@ -3,6 +3,7 @@ import './Special.css';
 import images from '../../constants/images';
 import SpecialItem from '../../components/SpecialItem/SpecialItem';
 import Title from '../../components/Title/Title';
+import Subtitle from '../../components/Subtitle/Subtitle';
 const wines = [
   { name: 'Chapel Hill Shiraz', price: 56, tags: 'AU | Bottle' },
   { name: 'Catena Malbec', price: 59, tags: 'AR | Bottle' },
@@ -38,13 +39,7 @@ const coctails = [
 const Special = () => {
   return (
     <div className="special">
-      <div className="subtitle flex_center mr_bottom-05">
-        <p className="subtitle__text mr_bottom-05">
-          Menu that fits you palatte
-        </p>
-        <img className="subtitle__spoon" src={images.spoon} alt="spoon" />
-      </div>
-
+      <Subtitle content="Menu that fits you palatte" />
       <Title
         classes="title_wrap_no mr_bottom-4"
         purpose="section"

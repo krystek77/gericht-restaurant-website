@@ -11,6 +11,13 @@
   padding: 3rem 2rem;
   background-blend-mode: lighten;
 }
+.reservation__inner .subtitle__text {
+  margin-bottom: 0.5rem;
+}
+.reservation__inner .subtitle {
+  justify-content: center;
+  align-items: center;
+}
 .reservation__form {
   width: 100%;
   display: flex;

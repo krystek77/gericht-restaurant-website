@@ -4,6 +4,7 @@ import images from '../../constants/images';
 import './Hero.css';
 import ActionButton from '../../components/ActionButton/ActionButton';
 import Title from '../../components/Title/Title';
+import Subtitle from '../../components/Subtitle/Subtitle';
 
 const heroImages = [images.hero_01, images.hero_02, images.hero_03];
 
@@ -12,10 +13,7 @@ const Hero = () => {
     <div className="hero section_padding">
       <div className="hero__inner">
         <div className="hero__info">
-          <div className="subtitle mr_bottom-05">
-            <p className="subtitle__text mr_bottom-05">Chase the new Flavour</p>
-            <img className="subtitle__spoon" src={images.spoon} alt="spoon" />
-          </div>
+          <Subtitle content="Chase the new Flavour" classes="mr_bottom-05" />
           <Title
             purpose="page"
             classes="title_header-h1 mr_bottom-2"
