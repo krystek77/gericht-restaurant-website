@@ -7,6 +7,7 @@ export { default as Special } from './Special/Special';
 export { default as Chef } from './Chef/Chef';
 export { default as Customers } from './Customers/Customers';
 export { default as Video } from './Video/Video';
+export { default as Blog } from './Blog/Blog';
 export { default as Laurels } from './Laurels/Laurels';
 export { default as Updates } from './Updates/Updates';
 export { default as PhotoGallery } from './PhotoGallery/PhotoGallery';

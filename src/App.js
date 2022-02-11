@@ -12,6 +12,7 @@ import {
   Chef,
   Customers,
   Video,
+  Blog,
   Laurels,
   Updates,
   PhotoGallery,
@@ -29,8 +30,9 @@ const App = () => {
       <Special />
       {/* <Chef />
       <Customers />
-      <Video />
-      <Laurels />
+      <Video /> */}
+      <Blog />
+      {/* <Laurels />
       <Updates /> */}
       <PhotoGallery />
       {/* <Footer /> */}

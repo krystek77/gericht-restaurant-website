@@ -11,11 +11,14 @@ import arrow_down_SVG from '../assets/images/arrow_down.svg';
 import arrow_down_PNG from '../assets/images/arrow_down.png';
 import bite_delight from '../assets/images/bite_delight.png';
 import special from '../assets/images/special.png';
-import gallery01  from '../assets/images/gallery01.png'
-import gallery02  from '../assets/images/gallery02.png'
-import gallery03  from '../assets/images/gallery03.png'
-import gallery04  from '../assets/images/gallery04.png'
-import gallery05  from '../assets/images/gallery05.png'
+import gallery01 from '../assets/images/gallery01.png';
+import gallery02 from '../assets/images/gallery02.png';
+import gallery03 from '../assets/images/gallery03.png';
+import gallery04 from '../assets/images/gallery04.png';
+import gallery05 from '../assets/images/gallery05.png';
+import blog01 from '../assets/images/blog01.png';
+import blog02 from '../assets/images/blog02.png';
+import blog03 from '../assets/images/blog03.png';
 
 const images = {
   logo,
@@ -35,6 +38,9 @@ const images = {
   gallery03,
   gallery04,
   gallery05,
+  blog01,
+  blog02,
+  blog03,
 };
 
 export default images;
