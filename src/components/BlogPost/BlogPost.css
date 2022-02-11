@@ -1,0 +1,73 @@
+.post-card {
+  border: 1px solid green;
+  width: min-content;
+}
+.post-card__image-wrapper {
+  width: 412px;
+  height: 430px;
+  border: 1px solid var(--accent-color);
+  margin-bottom: 1.5rem;
+}
+.post-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.post-card__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.post-card__date {
+  font-family: var(--font-alt);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+  color: var(--primary-color-dark);
+}
+.post-card__author {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+  color: var(--primary-color-dark);
+}
+.post-card__title {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  color: var(--accent-color);
+  margin-bottom: 2rem;
+}
+.post-card__content {
+  font-family: var(--font-alt);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+  color: var(--primary-color-darer);
+  margin-bottom: 2rem;
+}
+.post-card__read-more {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+}
+.post-card__read-more:hover {
+  color: var(--accent-color-light);
+}
