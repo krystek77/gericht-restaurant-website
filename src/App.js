@@ -28,8 +28,8 @@ const App = () => {
       <Reservation />
       <Menu />
       <Special />
-      {/* <Chef />
-      <Customers /> */}
+      <Chef />
+      {/* <Customers /> */}
       <Video />
       <Blog />
       {/* <Laurels />

@@ -5,6 +5,13 @@
   background-attachment: fixed;
   background-size: cover;
 }
+.background_marble_scroll {
+  background-image: url(./assets/images/background_marble.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
 .background_glassful {
   background-image: url(./assets/images/background_menu.png);
   background-position: center;
