@@ -1,0 +1,11 @@
+.blog {
+  padding: 9.5rem 19.375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog__posts {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
