@@ -1,0 +1,10 @@
+.customers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.customers .subtitle {
+    justify-content: center;
+    align-items: center;
+}
