@@ -5,6 +5,7 @@ import images from '../../constants/images';
 import ActionButton from '../../components/ActionButton/ActionButton';
 import Title from '../../components/Title/Title';
 import Description from '../../components/Description/Description';
+import Spoon from '../../components/Spoon/Spoon';
 
 const AboutUs = () => {
   return (
@@ -19,11 +20,7 @@ const AboutUs = () => {
           purpose="section"
           content="About Us"
         />
-        <img
-          className="spoon mr_bottom-2 spoon_direction_left"
-          src={images.spoon}
-          alt="spoon"
-        />
+        <Spoon classes="spoon_direction_left mr_bottom-2" />
         <Description classes="description_align_left-reverse">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
           adipiscing ultrices vulputate posuere tristique. In sed odio nec

@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { MdRestaurantMenu } from 'react-icons/md';
 import { GiHamburgerMenu } from 'react-icons/gi';
-
+import Spoon from '../../components/Spoon/Spoon';
 import images from '../../constants/images';
+
 import './Header.css';
 
 const Header = () => {
@@ -48,7 +49,7 @@ const Header = () => {
             <div className="navigation-small-screen__login">
               <a className='link mr_bottom-05' href="#login">Log In / Registration</a>
               <div className='navigation-small-screen__spoon mr_bottom-05'>
-                <img src={images.spoon} alt="spoon"/>
+                <Spoon/>
               </div>
               <a className='link' href="#book-table">Book Table</a>
             </div>

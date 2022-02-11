@@ -1,5 +1,5 @@
 import React from 'react';
-import images from '../../constants/images';
+import Spoon from '../Spoon/Spoon';
 import './Subtitle.css';
 
 function Subtitle({ classes = '', content = 'Give subtitle' }) {
@@ -7,7 +7,7 @@ function Subtitle({ classes = '', content = 'Give subtitle' }) {
   return (
     <div className={classesString}>
       <p className="subtitle__text">{content}</p>
-      <img className="subtitle__spoon" src={images.spoon} alt="spoon" />
+      <Spoon />
     </div>
   );
 }
