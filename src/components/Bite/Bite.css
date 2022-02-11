@@ -20,6 +20,10 @@
   top: 0.9375rem;
   left: 9.4375rem;
 }
+.top-left-2 {
+  top: 9.1875rem;
+  left: 12.3125rem;
+}
 
 @media screen and (max-width: 1536px) {
 }

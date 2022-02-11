@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useRef, useState } from "react";
 import { BsFillPlayFill, BsFillPauseFill } from "react-icons/bs";
+import Bite from "../../components/Bite/Bite";
 import videos from "../../constants/videos";
 import "./Video.css";
 
@@ -19,6 +20,7 @@ const Video = () => {
   };
   return (
     <div className='video-section'>
+      <Bite position="top-left-2"/>
       <video className='video-section__video' muted loop ref={ref}>
         <source src={videos.video01} type='video/mp4' />
       </video>
