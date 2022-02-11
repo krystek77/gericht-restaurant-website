@@ -22,6 +22,10 @@ import blog03 from "../assets/images/blog03.png";
 import chef from "../assets/images/chef.png";
 import quote from '../assets/images/quote.png';
 import KevinLuo from '../assets/images/KevinLuo.png';
+import customer01 from '../assets/images/customer01.png';
+import customer02 from '../assets/images/customer02.png';
+import customer03 from '../assets/images/customer03.png';
+import customer04 from '../assets/images/customer04.png';
 
 const images = {
   logo,
@@ -46,7 +50,11 @@ const images = {
   blog03,
   chef,
   quote,
-  KevinLuo
+  KevinLuo,
+  customer01,
+  customer02,
+  customer03,
+  customer04
 };
 
 export default images;

@@ -29,7 +29,7 @@ const App = () => {
       <Menu />
       <Special />
       <Chef />
-      {/* <Customers /> */}
+      <Customers />
       <Video />
       <Blog />
       {/* <Laurels />
