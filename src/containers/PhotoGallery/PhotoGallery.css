@@ -82,4 +82,35 @@
   border-radius: 0.3rem;
 }
 
-
+@media screen and (max-width: 1536px) {
+}
+@media screen and (max-width: 1280px) {
+  .gallery {
+    padding: 2rem 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gallery__content {
+    margin-right: 0;
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin-bottom: 2rem;
+  }
+  .gallery__content .subtitle {
+    justify-content: center;
+    align-items: center;
+  }
+  .gallery__outer {
+    max-width: max-content;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 375px) {
+}
