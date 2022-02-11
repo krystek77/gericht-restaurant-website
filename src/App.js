@@ -29,8 +29,8 @@ const App = () => {
       <Menu />
       <Special />
       {/* <Chef />
-      <Customers />
-      <Video /> */}
+      <Customers /> */}
+      <Video />
       <Blog />
       {/* <Laurels />
       <Updates /> */}
