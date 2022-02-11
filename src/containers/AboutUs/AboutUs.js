@@ -4,6 +4,7 @@ import './AboutUs.css';
 import images from '../../constants/images';
 import ActionButton from '../../components/ActionButton/ActionButton';
 import Title from '../../components/Title/Title';
+import Description from '../../components/Description/Description';
 
 const AboutUs = () => {
   return (
@@ -23,11 +24,11 @@ const AboutUs = () => {
           src={images.spoon}
           alt="spoon"
         />
-        <p className="description description_align_left-reverse mr_bottom-2">
+        <Description classes="description_align_left-reverse">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
           adipiscing ultrices vulputate posuere tristique. In sed odio nec
           aliquet eu proin mauris et.
-        </p>
+        </Description>
         <ActionButton label="Know More" />
       </div>
 
@@ -46,11 +47,11 @@ const AboutUs = () => {
           src={images.spoon}
           alt="spoon"
         />
-        <p className="description description_align_left mr_bottom-2">
+        <Description classes="description_align_left">
           Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
           Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
           odio nec aliquet.
-        </p>
+        </Description>
         <ActionButton label="Know More" />
       </div>
     </div>

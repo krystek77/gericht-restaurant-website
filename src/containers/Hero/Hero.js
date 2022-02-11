@@ -5,6 +5,7 @@ import './Hero.css';
 import ActionButton from '../../components/ActionButton/ActionButton';
 import Title from '../../components/Title/Title';
 import Subtitle from '../../components/Subtitle/Subtitle';
+import Description from '../../components/Description/Description';
 
 const heroImages = [images.hero_01, images.hero_02, images.hero_03];
 
@@ -19,11 +20,11 @@ const Hero = () => {
             classes="title_header-h1 mr_bottom-2"
             content="The Key To Fine Dining"
           />
-          <p className="description hero__description mr_bottom-2">
+          <Description>
             Sit tellus lobortis sed senectus vivamus molestie. Condimentum
             volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
             aliquam amet tellus
-          </p>
+          </Description>
           <ActionButton label="Explore More" />
         </div>
 

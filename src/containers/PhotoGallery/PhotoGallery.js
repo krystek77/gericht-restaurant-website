@@ -3,6 +3,7 @@ import React, { useRef } from 'react';
 import ActionButton from '../../components/ActionButton/ActionButton';
 import Title from '../../components/Title/Title';
 import Subtitle from '../../components/Subtitle/Subtitle';
+import Description from '../../components/Description/Description';
 import images from '../../constants/images';
 import {
   BsInstagram,
@@ -37,10 +38,10 @@ const PhotoGallery = () => {
           purpose="section"
           content="Instagram"
         />
-        <p className="description mr_bottom-15">
+        <Description classes="description_mr_bottom-15">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
           mattis ipsum turpis elit elit scelerisque egestas mu.
-        </p>
+        </Description>
         <ActionButton label="View More" />
       </div>
 

@@ -1,0 +1,22 @@
+.description {
+  font-family: var(--font-alt);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+  color: var(--primary-color-darker);
+  margin-bottom: 2rem;
+}
+.description_font-style_italic {
+  font-style: italic;
+}
+.description_align_left-reverse {
+  text-align: right;
+}
+.description_align_left {
+  text-align: left;
+}
+.description_mr_bottom-15 {
+  margin-bottom: 1.5rem;
+}
