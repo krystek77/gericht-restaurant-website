@@ -2,8 +2,8 @@ import React from 'react';
 import './Reservation.css';
 import images from '../../constants/images';
 import Bite from '../../components/Bite/Bite';
-import ActionButton from '../../components/ActionButton/ActionButton'
-
+import ActionButton from '../../components/ActionButton/ActionButton';
+import Title from '../../components/Title/Title';
 
 const Reservation = () => {
   return (
@@ -14,7 +14,11 @@ const Reservation = () => {
           <p className="subtitle__text mr_bottom-05">Reservation</p>
           <img className="subtitle__spoon" src={images.spoon} alt="spoon" />
         </div>
-        <h2 className="title title_wrap_no mr_bottom-3">Book A Table</h2>
+        <Title
+          classes="title_wrap_no mr_bottom-3"
+          purpose="section"
+          content="Book A Table"
+        />
         <div className="reservation__form mr_bottom-3">
           <div className="select">
             <div className="select__icons">
@@ -104,7 +108,7 @@ const Reservation = () => {
             </select>
           </div>
         </div>
-        <ActionButton label="Book Now"/>
+        <ActionButton label="Book Now" />
       </div>
     </div>
   );

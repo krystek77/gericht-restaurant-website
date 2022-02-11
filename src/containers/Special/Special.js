@@ -2,6 +2,7 @@ import React from 'react';
 import './Special.css';
 import images from '../../constants/images';
 import SpecialItem from '../../components/SpecialItem/SpecialItem';
+import Title from '../../components/Title/Title';
 const wines = [
   { name: 'Chapel Hill Shiraz', price: 56, tags: 'AU | Bottle' },
   { name: 'Catena Malbec', price: 59, tags: 'AR | Bottle' },
@@ -43,7 +44,12 @@ const Special = () => {
         </p>
         <img className="subtitle__spoon" src={images.spoon} alt="spoon" />
       </div>
-      <h2 className="title mr_bottom-4">Today's special</h2>
+
+      <Title
+        classes="title_wrap_no mr_bottom-4"
+        purpose="section"
+        content="Today's Special"
+      />
 
       <div className="special__content">
         <div className="special__wines">
