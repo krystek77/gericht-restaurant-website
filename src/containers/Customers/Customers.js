@@ -4,6 +4,7 @@ import images from "../../constants/images";
 import Subtitle from "../../components/Subtitle/Subtitle";
 import Title from "../../components/Title/Title";
 import CustomerItem from "../../components/CustomerItem/CustomerItem";
+import Bite from "../../components/Bite/Bite";
 
 import "./Customers.css";
 
@@ -37,6 +38,7 @@ const customersData = [
 const Customers = () => {
   return (
     <div className='customers'>
+      <Bite position="top-left-center " />
       <Subtitle content='Testimony' />
       <Title content='Happy Customers' purpose='section' classes='mr_bottom-4' />
       <div className='customers__content'>
