@@ -23,19 +23,18 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Hero />
+      {/* <Hero /> to correct */}
       <AboutUs />
       <Reservation />
       <Menu />
       <Special />
       <Chef />
-      <Customers />
+      <Customers /> 
       <Video />
-      <Blog />
-      {/* <Laurels />
-      <Updates /> */}
-      {/* <PhotoGallery /> */}
-      <Footer />
+      {/* <Blog /> to correct */}
+      {/* <Laurels /> */}
+      <PhotoGallery />
+      {/* <Footer /> */}
     </div>
   );
 };

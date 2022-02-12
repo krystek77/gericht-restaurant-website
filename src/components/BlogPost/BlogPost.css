@@ -1,10 +1,10 @@
 .post-card {
   width: min-content;
-  margin: 0 1rem;
+  padding: 0 1rem;
 }
 
 .post-card__image-wrapper {
-  width: 412px;
+  width: 395px;
   height: 430px;
   border: 1px solid var(--accent-color);
   margin-bottom: 1.5rem;

@@ -13,6 +13,7 @@
   position: relative;
   flex-grow: 1;
   max-width: 50%;
+  overflow: hidden;
 }
 .gallery__images {
   overflow-x: scroll;
