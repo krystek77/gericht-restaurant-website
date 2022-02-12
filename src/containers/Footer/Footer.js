@@ -7,6 +7,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className='footer'>
+      <div className="footer__background background_marble_scroll"></div>
       <Newsletter classes='newsletter_mr_bottom-8' />
       <div className='footer__content'>
         <div className='footer__contact'>
