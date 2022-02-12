@@ -9,12 +9,23 @@
   height: 210px;
   /* border: 1px solid lightgray; */
   margin-right: 1rem;
+  position: relative;
 }
 .customer-card__image {
   width: 190px;
   height: 190px;
 }
-
+.customer-card__quote {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateX(50%);
+  width: 47px;
+  height: 40px;
+}
+.customer-card__content {
+  margin-left: 1rem;
+}
 .customer-card__name {
   font-family: var(--font-base);
   font-style: normal;
@@ -46,6 +57,9 @@
   .customer-card {
     flex-direction: column;
     align-items: center;
+  }
+  .customer-card__content {
+    margin-left: 0;
   }
   .customer-card__name,
   .customer-card__job {
