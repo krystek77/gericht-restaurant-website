@@ -26,6 +26,11 @@ import customer01 from '../assets/images/customer01.png';
 import customer02 from '../assets/images/customer02.png';
 import customer03 from '../assets/images/customer03.png';
 import customer04 from '../assets/images/customer04.png';
+import facebook from '../assets/images/facebook.svg';
+import twitter from '../assets/images/twitter.svg';
+import instagram from '../assets/images/instagram.svg';
+import GerichtLogoPNG from '../assets/images/Gerícht.png';
+import GerichtLogoSVG from '../assets/images/Gerícht.svg';
 
 const images = {
   logo,
@@ -54,7 +59,12 @@ const images = {
   customer01,
   customer02,
   customer03,
-  customer04
+  customer04,
+  facebook,
+  twitter,
+  instagram,
+  GerichtLogoPNG,
+  GerichtLogoSVG
 };
 
 export default images;
