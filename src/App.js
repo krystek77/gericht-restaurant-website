@@ -23,7 +23,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      {/* <Hero /> to correct */}
+      {/* <Hero />  */}
       <AboutUs />
       <Reservation />
       <Menu />
@@ -34,7 +34,7 @@ const App = () => {
       {/* <Blog /> to correct */}
       {/* <Laurels /> */}
       <PhotoGallery />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
