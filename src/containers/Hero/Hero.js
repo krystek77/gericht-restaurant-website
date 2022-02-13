@@ -29,7 +29,7 @@ const Hero = () => {
             ))}
           </div>
         </div>
-        
+
         <div className='hero__indicators'>
           {heroImages.map((_, index) => {
             return (
@@ -47,6 +47,20 @@ const Hero = () => {
           <div className='pointer pointer_horizontal hero__pointer'></div>
           <span className='hero__scroll-text'>SCROLL</span>
         </button>
+
+        <ul className='hero__side-links'>
+          <li className='hero__side-item'>
+            <a className='hero__side-link' href='#gericht'>
+              #Gericht
+            </a>
+          </li>
+          <li className='hero__side-item'>
+            <a className='hero__side-link' href='#bar'>
+              #Bar
+            </a>
+          </li>
+        </ul>
+        
       </div>
     </div>
   );
