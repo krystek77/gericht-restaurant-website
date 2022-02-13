@@ -22,16 +22,16 @@ import {
 const App = () => {
   return (
     <div>
-      {/* <Header />
+      {/* <Header /> */}
       <Hero />
-      <AboutUs />
+      {/* <AboutUs />
       <Reservation />
       <Menu />
       <Special />
       <Chef />
       <Customers /> 
-      <Video /> */}
-      <Blog />
+      <Video />
+      <Blog /> */}
       {/* <Laurels />
       <PhotoGallery />
       <Footer /> */}
