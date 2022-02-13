@@ -95,6 +95,7 @@
   }
   .post-card__image-wrapper {
     width: 100%;
+    height:auto;
   }
   .post-card__title {
     font-size: 1.5rem;
