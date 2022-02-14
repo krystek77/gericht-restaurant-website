@@ -22,19 +22,19 @@ import {
 const App = () => {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       <Hero />
-      {/* <AboutUs />
+      <AboutUs />
       <Reservation />
       <Menu />
       <Special />
       <Chef />
-      <Customers /> 
+      <Customers />
       <Video />
-      <Blog /> */}
-      {/* <Laurels />
+      <Blog />
+      {/* <Laurels /> */}
       <PhotoGallery />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };

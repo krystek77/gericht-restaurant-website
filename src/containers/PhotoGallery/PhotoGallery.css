@@ -87,7 +87,7 @@
 }
 @media screen and (max-width: 1280px) {
   .gallery {
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
     flex-direction: column;
     align-items: center;
   }
