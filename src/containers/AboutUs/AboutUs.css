@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  z-index:0;
+  z-index: 0;
 }
 .about-us__background {
   position: absolute;
@@ -39,54 +39,53 @@
   align-items: flex-start;
   margin-left: 5.3125rem;
 }
-
+.about-us__g-letter {
+  min-width: 280px;
+}
 @media screen and (max-width: 1536px) {
 }
 @media screen and (max-width: 1280px) {
-    .about-us {
-        flex-direction: column;
-        padding:4rem 2rem;
-    }
-    .about-us__info {
-        margin-right: unset;
-        align-items: center;
-        max-width: 560px;
-    }
-    .about-us__history .spoon_direction_right {
-        transform: scale(-1);
-    }
-    .about-us__info .description_align_left-reverse  {
-        text-align: center;
-    }
-    .about-us__history .description_align_left {
-        text-align: center;
-    }
-    .about-us__knife {
-        margin-top:4rem;
-        margin-bottom:4rem;
-    }
-    .about-us__history {
-        margin-left: unset;
-        align-items: center;
-        max-width: 560px;
-    }
+  .about-us {
+    flex-direction: column;
+    padding: 4rem 2rem;
+  }
+  .about-us__info {
+    margin-right: unset;
+    align-items: center;
+    max-width: 560px;
+  }
+  .about-us__history .spoon_direction_right {
+    transform: scale(-1);
+  }
+  .about-us__info .description_align_left-reverse {
+    text-align: center;
+  }
+  .about-us__history .description_align_left {
+    text-align: center;
+  }
+  .about-us__knife {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .about-us__history {
+    margin-left: unset;
+    align-items: center;
+    max-width: 560px;
+  }
 }
 @media screen and (max-width: 900px) {
-    .about-us__info {
-        align-items: flex-start;
-        
-    }
-    .about-us__history {
-        align-items: flex-start;
-    }
-    .about-us__info .description_align_left-reverse  {
-        text-align: left;
-    }
-    .about-us__history .description_align_left {
-        text-align: left;
-    }
-
+  .about-us__info {
+    align-items: flex-start;
+  }
+  .about-us__history {
+    align-items: flex-start;
+  }
+  .about-us__info .description_align_left-reverse {
+    text-align: left;
+  }
+  .about-us__history .description_align_left {
+    text-align: left;
+  }
 }
 @media screen and (max-width: 600px) {
- 
 }
