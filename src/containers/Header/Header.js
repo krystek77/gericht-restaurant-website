@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
-import { MdRestaurantMenu } from 'react-icons/md';
-import { GiHamburgerMenu } from 'react-icons/gi';
-import Spoon from '../../components/Spoon/Spoon';
-import images from '../../constants/images';
+import React, { useState } from "react";
+import { MdRestaurantMenu } from "react-icons/md";
+import { GiHamburgerMenu } from "react-icons/gi";
+import Spoon from "../../components/Spoon/Spoon";
+import images from "../../constants/images";
+import { Link } from "react-router-dom";
 
-import './Header.css';
+import "./Header.css";
 
 const Header = () => {
   const [turnMenu, setTurnMenu] = useState(false);
@@ -17,10 +18,10 @@ const Header = () => {
       <div className="logo"> <img className="logo__image" src={images.logo} alt="logo" /> </div>
 
       <ul className="navigation">
-        <li className="navigation__item"><a href="#home" className="link link_letter_04"> Home </a> </li>
+        <li className="navigation__item"><Link to="/" href="#home" className="link link_letter_04"> Home </Link> </li>
         <li className="navigation__item"><a href="#pages" className="link link_letter_04"> Pages </a> </li>
         <li className="navigation__item"><a href="#contact" className="link link_letter_04"> Contact Us </a> </li>
-        <li className="navigation__item"><a href="#blog" className="link link_letter_04"> Blog </a> </li>
+        <li className="navigation__item"><Link to="/blog" href="#blog" className="link link_letter_04"> Blog </Link> </li>
         <li className="navigation__item navigation__item_mr_0"> <a href="landing" className="link link_letter_04"> Landing </a> </li>
       </ul>
 
