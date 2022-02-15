@@ -28,3 +28,23 @@
   text-align: center;
   padding: 2rem 1rem;
 }
+@media screen and (max-width: 1536px) {
+}
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 425px) {
+  .page__not-founded-image {
+    width: 320px;
+    height: auto;
+  }
+  .page__not-founded {
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+}
+@media screen and (max-width: 375px) {
+}
