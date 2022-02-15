@@ -31,8 +31,8 @@ const App = () => {
       <Chef />
       <Customers />
       <Video />
-      <Blog />
       <Laurels />
+      <Blog />
       <PhotoGallery />
       <Footer />
     </div>
