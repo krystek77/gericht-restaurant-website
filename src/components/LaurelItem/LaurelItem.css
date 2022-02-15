@@ -1,0 +1,21 @@
+.laurel__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.laurel__item:nth-child(1),
+.laurel__item:nth-child(2) {
+  margin-bottom: 64px;
+}
+.laurel__image-wrapper {
+  min-width: 79px;
+  min-height: 79px;
+  margin-right: 32px;
+}
+.laurel__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

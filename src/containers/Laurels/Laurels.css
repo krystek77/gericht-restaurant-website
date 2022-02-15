@@ -18,31 +18,6 @@
   column-gap: 32px;
   margin-right: 111px;
 }
-.laurel__item {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-}
-.laurel__item:nth-child(1),
-.laurel__item:nth-child(2) {
-  margin-bottom: 64px;
-}
-/* .laurels__content {
-}
-.laurels__image {
-} */
-.laurel__image-wrapper {
-  min-width: 79px;
-  min-height: 79px;
-  margin-right: 32px;
-}
-.laurel__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
 /* .laurels__image-wrapper {
 } */
 .laurels__image {

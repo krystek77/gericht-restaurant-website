@@ -3,7 +3,7 @@ import React from 'react';
 import images from '../../constants/images';
 import Subtitle from '../../components/Subtitle/Subtitle';
 import Title from '../../components/Title/Title';
-import Description from '../../components/Description/Description';
+import LaurelItem from '../../components/LaurelItem/LaurelItem';
 import './Laurels.css';
 
 const laurelsData = [
@@ -42,23 +42,7 @@ const Laurels = () => {
           />
           <div className="laurels__items">
             {laurelsData.map((laurel, index) => (
-              <div className="laurel__item" key={index}>
-                <div className="laurel__image-wrapper">
-                  <img
-                    className="laurel__image"
-                    src={laurel.image}
-                    alt={laurel.title}
-                  />
-                </div>
-                <div className="laurel__content">
-                  <Title
-                    content={laurel.title}
-                    purpose="item"
-                    classes="title_header-h4"
-                  />
-                  <Description>{laurel.content}</Description>
-                </div>
-              </div>
+              <LaurelItem key={index} {...laurel} />
             ))}
           </div>
         </div>
