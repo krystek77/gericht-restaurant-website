@@ -5,10 +5,13 @@ import Spoon from '../components/Spoon/Spoon';
 import Description from '../components/Description/Description';
 import ActionButton from '../components/ActionButton/ActionButton';
 import Copyright from '../components/Copyright/Copyright';
+import Bite from '../components/Bite/Bite'
 
 function NotFounded() {
   return (
     <div className="page page_not-founded">
+      <Bite position="not-founded_left"/>
+      <Bite position="not-founded_right"/>
       <Header />
       <div className="page__not-founded background_marble_scroll">
         <img

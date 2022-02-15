@@ -30,12 +30,28 @@
   transform: translateY(-50%);
 }
 
+.not-founded_left {
+  left: 225px;
+  bottom:181px;
+}
+.not-founded_right {
+  top: 220px;
+  right:167px;
+}
 @media screen and (max-width: 1536px) {
 }
 @media screen and (max-width: 1280px) {
   .top-right {
     top: -4.5625rem;
     right: 5rem;
+  }
+  .not-founded_left {
+    bottom:100px;
+    left: 100px;
+  }
+  .not-founded_right {
+    right:100px;
+    top: 100px;
   }
 }
 @media screen and (max-width: 900px) {
