@@ -2,7 +2,7 @@
 import React from 'react';
 import './AboutUs.css';
 import images from '../../constants/images';
-import ActionButton from '../../components/ActionButton/ActionButton';
+import LinkButton from '../../components/LinkButton/LinkButton';
 import Title from '../../components/Title/Title';
 import Description from '../../components/Description/Description';
 import Spoon from '../../components/Spoon/Spoon';
@@ -26,7 +26,7 @@ const AboutUs = () => {
           adipiscing ultrices vulputate posuere tristique. In sed odio nec
           aliquet eu proin mauris et.
         </Description>
-        <ActionButton label="Know More" />
+        <LinkButton to="about">Know More</LinkButton>
       </div>
 
       <div className="about-us__knife">
@@ -49,7 +49,7 @@ const AboutUs = () => {
           Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
           odio nec aliquet.
         </Description>
-        <ActionButton label="Know More" />
+        <LinkButton to="history">Know More</LinkButton>
       </div>
     </div>
   );

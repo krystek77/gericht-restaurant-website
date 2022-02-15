@@ -3,9 +3,9 @@ import Header from '../containers/Header/Header';
 import images from '../constants/images';
 import Spoon from '../components/Spoon/Spoon';
 import Description from '../components/Description/Description';
-import ActionButton from '../components/ActionButton/ActionButton';
 import Copyright from '../components/Copyright/Copyright';
 import Bite from '../components/Bite/Bite'
+import LinkButton from '../components/LinkButton/LinkButton';
 
 function NotFounded() {
   return (
@@ -24,7 +24,7 @@ function NotFounded() {
           Oops! The page you are looking for does not exist. It might have been
           moved or deleted.
         </Description>
-        <ActionButton label="Back To Home" />
+        <LinkButton to="/">Back To Home</LinkButton>
       </div>
       <Copyright />
     </div>
