@@ -10,6 +10,8 @@ function Title({ content = 'Give title', classes = '', purpose = '' }) {
     }
     case 'section':
       return <h2 className={classesString}>{content}</h2>;
+    case 'item':
+      return <h3 className={classesString}>{content}</h3>;
     default: {
       throw new Error(`Title purpose unknown ${purpose}`);
     }

@@ -21,7 +21,15 @@
 .title_wrap_no {
   white-space: nowrap;
 }
-
+.title_header-h4 {
+  font-family: var(--font-base);
+  font-weight: bold;
+  font-size: 1.4375rem;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--accent-color);
+}
 @media screen and (max-width: 1536px) {
 }
 @media screen and (max-width: 1280px) {
