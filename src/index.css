@@ -108,3 +108,8 @@ a {
 .section_padding {
   padding: 8rem 19.375rem;
 }
+.temporary {
+  font-size:64px;
+  text-align:center;
+  padding:1rem
+}
