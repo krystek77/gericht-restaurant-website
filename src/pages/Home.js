@@ -11,14 +11,16 @@ import {
   Laurels,
   Blog,
   PhotoGallery,
+  Footer,
 } from '../containers';
 import BackgroundCurve from '../components/BackgroundCurve/BackgroundCurve';
+import Layout from '../components/Layout/Layout';
 
 import images from '../constants/images';
 
 function Home() {
   return (
-    <div className="page">
+    <Layout>
       <BackgroundCurve classes="curve_left-home" image={images.bg_vL_SVG} />
       <BackgroundCurve classes="curve_right-home" image={images.bg_vR_SVG} />
       <Hero />
@@ -32,7 +34,8 @@ function Home() {
       <Laurels />
       <Blog />
       <PhotoGallery />
-    </div>
+      <Footer />
+    </Layout>
   );
 }
 

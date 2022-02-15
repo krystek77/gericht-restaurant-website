@@ -1,7 +1,3 @@
-.page {
-  position: relative;
-  overflow: hidden;
-}
 .background_marble {
   background-image: url(./assets/images/background_marble.png);
   background-position: center;

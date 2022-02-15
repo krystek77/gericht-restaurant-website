@@ -1,14 +1,16 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import Layout from './components/Layout/Layout';
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import NotFounded from './pages/NotFounded';
 import './App.css';
 
 const App = () => {
   return (
-    <Layout>
-      <Home />
-    </Layout>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="*" element={<NotFounded />} />
+    </Routes>
   );
 };
 export default App;

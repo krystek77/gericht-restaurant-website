@@ -1,14 +1,13 @@
 import React from 'react';
 import Header from '../../containers/Header/Header';
-import Footer from '../../containers/Footer/Footer';
+import './Layout.css';
 
 function Layout({ children }) {
   return (
-    <React.Fragment>
+    <div className="page">
       <Header />
       {children}
-      <Footer />
-    </React.Fragment>
+    </div>
   );
 }
 export default Layout;
