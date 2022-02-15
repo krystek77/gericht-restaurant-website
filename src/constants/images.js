@@ -36,6 +36,10 @@ import Laurel02 from '../assets/images/Laurel02.png';
 import Laurel03 from '../assets/images/Laurel03.png';
 import Laurel05 from '../assets/images/Laurel05.png';
 import Laurel from '../assets/images/Laurel.png';
+import bg_vL_SVG from '../assets/images/bg_vL.svg';
+import bg_vL_PNG from '../assets/images/bg_vL.png';
+import bg_vR_SVG from '../assets/images/bg_vR.svg';
+import bg_vR_PNG from '../assets/images/bg_vR.png';
 
 const images = {
   logo,
@@ -75,6 +79,10 @@ const images = {
   Laurel02,
   Laurel03,
   Laurel05,
+  bg_vL_PNG,
+  bg_vL_SVG,
+  bg_vR_PNG,
+  bg_vR_SVG,
 };
 
 export default images;

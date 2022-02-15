@@ -32,11 +32,11 @@ const PhotoGallery = () => {
   return (
     <div className="gallery background_marble">
       <div className="gallery__content">
-        <Subtitle content="Menu that fits you palatte" />
+        <Subtitle content="Instagram" />
         <Title
           classes="title_wrap_no mr_bottom-15"
           purpose="section"
-          content="Instagram"
+          content="Photo Gallery"
         />
         <Description classes="description_mr_bottom-15">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
