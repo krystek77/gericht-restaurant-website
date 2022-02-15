@@ -1,15 +1,30 @@
 import React from 'react';
-import Layout from '../components/Layout/Layout';
+import Header from '../containers/Header/Header';
+import images from '../constants/images';
+import Spoon from '../components/Spoon/Spoon';
+import Description from '../components/Description/Description';
+import ActionButton from '../components/ActionButton/ActionButton';
+import Copyright from '../components/Copyright/Copyright';
 
 function NotFounded() {
-  const styles = {
-    fontSize: '64px',
-    textAlign: 'center',
-  };
   return (
-    <Layout>
-      <h1 style={styles}>Page not founded 😱</h1>
-    </Layout>
+    <div className="page page_not-founded">
+      <Header />
+      <div className="page__not-founded background_marble_scroll">
+        <img
+          className="page__not-founded-image"
+          src={images.NotFounded}
+          alt="Not Founded"
+        />
+        <Spoon classes="mr_bottom-2" />
+        <Description classes="description_not-founded mr_bottom-2">
+          Oops! The page you are looking for does not exist. It might have been
+          moved or deleted.
+        </Description>
+        <ActionButton label="Back To Home" />
+      </div>
+      <Copyright />
+    </div>
   );
 }
 

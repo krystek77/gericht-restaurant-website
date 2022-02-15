@@ -127,17 +127,6 @@
   color: var(--primary-color-darker);
 }
 
-.footer__copyright {
-  font-family: var(--font-alt);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.75;
-  letter-spacing: 0.04em;
-  color: var(--primary-color-darker);
-  padding: 1rem;
-}
-
 @media screen and (max-width: 1600px) {
 }
 @media screen and (max-width: 1536px) {

@@ -2,3 +2,29 @@
   position: relative;
   overflow: hidden;
 }
+.page_not-founded .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.page__not-founded {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page__not-founded-image {
+  width: 428px;
+  height: 190px;
+  margin-bottom: 16px;
+}
+.page_not-founded .copyright {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 1rem;
+}

@@ -40,6 +40,7 @@ import bg_vL_SVG from '../assets/images/bg_vL.svg';
 import bg_vL_PNG from '../assets/images/bg_vL.png';
 import bg_vR_SVG from '../assets/images/bg_vR.svg';
 import bg_vR_PNG from '../assets/images/bg_vR.png';
+import NotFounded from '../assets/images/404.png';
 
 const images = {
   logo,
@@ -83,6 +84,7 @@ const images = {
   bg_vL_SVG,
   bg_vR_PNG,
   bg_vR_SVG,
+  NotFounded,
 };
 
 export default images;
