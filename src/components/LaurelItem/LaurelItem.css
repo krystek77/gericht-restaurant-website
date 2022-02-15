@@ -19,3 +19,19 @@
   object-fit: cover;
   display: block;
 }
+@media screen and (max-width: 1536px) {
+  .laurel__item:nth-child(1),
+  .laurel__item:nth-child(2) {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 425px) {
+}
+@media screen and (max-width: 375px) {
+}

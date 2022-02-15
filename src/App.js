@@ -22,7 +22,7 @@ import {
 const App = () => {
   return (
     <div>
-      {/* <Header />
+      <Header />
       <Hero />
       <AboutUs />
       <Reservation />
@@ -31,10 +31,10 @@ const App = () => {
       <Chef />
       <Customers />
       <Video />
-      <Blog /> */}
+      <Blog />
       <Laurels />
-      {/* <PhotoGallery />
-      <Footer /> */}
+      <PhotoGallery />
+      <Footer />
     </div>
   );
 };

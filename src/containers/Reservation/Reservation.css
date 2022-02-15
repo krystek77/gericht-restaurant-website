@@ -71,7 +71,7 @@
 @media screen and (max-width: 1536px) {
 }
 @media screen and (max-width: 1280px) {
-  .title {
+  .reservation .title {
     font-size: 64px;
   }
   .reservation__form {
@@ -91,7 +91,7 @@
     padding: 6rem 8rem;
   }
 
-  .title {
+  .reservation .title {
     font-size: 48px;
   }
 }
@@ -99,7 +99,7 @@
   .reservation {
     padding: 4rem 2rem;
   }
-  .title {
+  .reservation .title {
     font-size: 32px;
   }
 }
