@@ -12,18 +12,15 @@ import {
   Blog,
   PhotoGallery,
 } from '../containers';
+import BackgroundCurve from '../components/BackgroundCurve/BackgroundCurve';
 
 import images from '../constants/images';
 
 function Home() {
   return (
     <div className="page">
-      <div className="curve curve_left">
-        <img src={images.bg_vL_SVG} alt="left curve" />
-      </div>
-      <div className="curve curve_right">
-        <img src={images.bg_vR_SVG} alt="right curve" />
-      </div>
+      <BackgroundCurve classes="curve_left-home" image={images.bg_vL_SVG} />
+      <BackgroundCurve classes="curve_right-home" image={images.bg_vR_SVG} />
       <Hero />
       <AboutUs />
       <Reservation />

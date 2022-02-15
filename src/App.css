@@ -2,21 +2,6 @@
   position: relative;
   overflow: hidden;
 }
-.curve {
-  position: absolute;
-}
-.curve_left {
-  width: 1607.91px;
-  height: 10691.5px;
-  left: 85px;
-  top: 650px;
-}
-.curve_right {
-  width: 2228px;
-  height: 14908px;
-  left: 65px;
-  top: 1110.5px;
-}
 .background_marble {
   background-image: url(./assets/images/background_marble.png);
   background-position: center;
